@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="할리스는 1998년 국내 첫 에스프레소 커피전문점을 개점한 순수 국내브랜드로서 당당하게 시장 선점이라는 확고한 위치를 확보하고 국내 에스프레소 커피시장을 주도해 나가고 있습니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HOLLYS">
+    <meta property="og:url" content="http://hyunnnn.dothome.co.kr/hollys/">
+    <meta property="og:image" content="http://hyunnnn.dothome.co.kr/hollys/images/hollys_og.png">
+    <meta property="og:description" content="할리스는 1998년 국내 첫 에스프레소 커피전문점을 개점한 순수 국내브랜드로서 당당하게 시장 선점이라는 확고한 위치를 확보하고 국내 에스프레소 커피시장을 주도해 나가고 있습니다.">
+    <title>로그인 | HOLLYS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?v=1">
+    <!-- 모바일브라우저 홈화면 추가시 아이콘 -->
+    <link rel="apple-touch-icon" href="images/app_home.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    <div id="skipNavi">
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="할리스"></a></h1>
+            <div class="icon_nav">
+                <span></span>
+            </div>
+            <div class="dimm"></div>
+            <aside class="gnb_box">
+                <nav class="gnb">
+                    <ul class="depth1">
+                        <li>
+                            <a href="#">MY HOLLYS</a>
+                            <ul class="depth2">
+                                <li><a href="#">MY 멤버십</a></li>
+                                <li><a href="#">MY 쿠폰</a></li>
+                                <li><a href="#">MY 할리스카드</a></li>
+                                <li><a href="#">레드아카데미 신청내역</a></li>
+                                <li><a href="#">회원정보 관리 및 탈퇴</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="depth2">
+                                <li><a href="menu_bakery.html">COFFEE</a></li>
+                                <li><a href="menu_bakery.html">라떼ㆍ초콜릿ㆍ티</a></li>
+                                <li><a href="menu_bakery.html">할리치노ㆍ빙수</a></li>
+                                <li><a href="menu_bakery.html">스파클링</a></li>
+                                <li><a href="menu_bakery.html">베이커리ㆍ스낵MD</a></li>
+                                <li><a href="menu_bakery.html">MD상품</a></li>
+                                <li><a href="menu_bakery.html">MD커피</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="depth2">
+                                <li><a href="store_search.html">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">MEMBERSHIP</a>
+                            <ul class="depth2">
+                                <li><a href="#">스마트오더</a></li>
+                                <li><a href="#">멤버십혜택</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">NEWS</a>
+                            <ul class="depth2">
+                                <li><a href="notice.html">NOTICE</a></li>
+                                <li><a href="notice.html">EVENT</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT</a>
+                            <ul class="depth2">
+                                <li><a href="#">HOLLYS</a></li>
+                                <li><a href="#">할리스 위치 및 연락처</a></li>
+                                <li><a href="#">채용 안내</a></li>
+                                <li><a href="#">가맹문의 및 절차</a></li>
+                                <li><a href="#">B2B 사업 소개</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="link">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </aside>
+        </header>
+        <div id="container" class="login_container">
+            <div class="contents">
+                <div class="tit">
+                    <h2 class="sub_tit">로그인</h2>
+                    <p>할리스 회원으로 로그인하시면<br>다양한 서비스를 이용하실 수 있습니다.</p>
+                </div>
+                <div class="login_wrap">
+                    <div class="input_wrap">
+                        <input type="text" placeholder="이메일 아이디">
+                    </div>
+                    <div class="input_wrap">
+                        <input type="password" placeholder="비밀번호(8~15자리 숫자, 영문자, 특수문자)">
+                    </div>
+                    <div class="checkbox_wrap">
+                        <input type="checkbox" id="saveId" class="blind">
+                        <label for="saveId">아이디 저장</label>
+                    </div>
+                    <button class="btn_login" type="submit">로그인</button>
+                </div>
+                <ul class="member_info">
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                    <li><a href="#" target="_blank">회원가입</a></li>
+                </ul>
+                <div class="login_etc">
+                    <p class="txt">SNS계정으로 로그인</p>
+                    <button type="button" class="sns btn_facebook"></button>
+                    <button type="button" class="sns btn_naver"></button>
+                    <button type="button" class="sns btn_kakao"></button>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <ul class="top_footer">
+                <li><a href="#">브랜드소개</a></li>
+                <li><a href="#">고객의소리</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+            <div class="bottom_footer">
+                <img src="images/logo_footer.png" alt="로고">
+                <p class="txt1">(주) 케이지할리스에프앤비(대표자: 신유정)
+                    사업자등록번호: 211-87-61044
+                    통신판매업: 제2019-서울종로-0193호
+                    주소: 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)
+                    대표전화 : 02-2188-7100 (가맹문의: 02-6530-7229)</p>
+                <div class="sns_wrap">
+                    <a href="#">페이스북</a>
+                    <a href="#">인스타그램</a>
+                    <a href="#">유튜브</a>
+                    <a href="#">블로그</a>
+                </div>
+                <p class="copy">COPYRIGHT (C) KG HOLLYS F&B. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+    <script>
+    </script>
+</body>
+</html>
