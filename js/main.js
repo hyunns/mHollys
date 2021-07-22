@@ -51,13 +51,12 @@
     var newsSlider = new Swiper('.news_slider', {
         direction: 'vertical',
         loop: true,
-        // slidesPerView: 1,
-        speed: 600, // 슬라이드 이동속도
+        speed: 600,
         autoplay: {
-            delay: 5000, // 다음 슬라이드 지연시간
-            disableOnInteraction: false, // 안쪽 버튼 클릭시 안 멈추게 함
+            delay: 5000,
+            disableOnInteraction: false,
         },
-        spaceBetween: 10, // 슬라이드 간 간격
+        spaceBetween: 10,
     });
 
     $('.main_etc .news_slider').on('click', function (e) {
@@ -66,14 +65,12 @@
 
     // 메인 sns 슬라이더
     var snsSlider = new Swiper('.sns_slider', {
-        speed: 700, // 슬라이드 이동속도
+        speed: 700,
         autoplay: {
             delay: 5000,
         },
-        // css로 슬라이스크기를 지정할 경우에는 auto로 하고
-        // 지정안할경우에는 1이상 갯수를 적음(1일 경우 100%), 알아서 %계산됨
         slidesPerView: 'auto',
-        spaceBetween: 10, // 슬라이드 간 간격
+        spaceBetween: 10,
         scrollbar: {
             el: '.swiper-scrollbar',
             draggable: true,
